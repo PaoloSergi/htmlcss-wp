@@ -9,17 +9,11 @@ body{
 }
 
 /* regole .container */
+
 .container{
     width: 80%;
     margin: 25px auto;
-
-    /* debug */
-    /* height: 1000px; */
-    /* width: 80vw; */
-
-    /* fine debug */
 }
-
 
 /* fine regole .container */
 
@@ -28,12 +22,6 @@ body{
 header.page{
     width: 100%;
     margin-bottom: 30px;
-
-    /* debug */
-    /* background-color: rgb(236, 71, 223); */
-    /* height: 130px; */
-
-    /* fine debug */
 }
 
 .logo{
@@ -46,8 +34,6 @@ header.page{
 nav>ul li{
     list-style-type: none;
     display: inline-block;
-
-    /* background-color: red; */
 }
 
 nav li>a{
@@ -58,8 +44,6 @@ nav li>a{
     padding: 15px 0;
     margin-right: 10px;
 }
-
-
 
 /* fine regole header.page */
 
@@ -72,11 +56,6 @@ section.hero{
     height: 540px;
     margin-bottom: 35px;
     position: relative;
-
-    /* debug */
-    /* background-color:rgb(204, 186, 87); */
-
-    /* fine debug */
 }
 
 .hero>img{
@@ -103,8 +82,6 @@ section.hero{
     font-size: 18px;
 }
 
-
-
 /* fine regole hero */
 
 
@@ -112,23 +89,8 @@ section.hero{
 
 main{
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding-bottom: 20px;
-
-    /* debug */
-    /* background-color:rgb(87, 87, 255); */
-    /* height: 700px; */
-
-    /* fine debug */
-}
-
-main>*{
-
-    /* debug */
-    /* background-color:rgb(157, 206, 255); */
-
-    /* fine debug */
-
 }
 
 main::after{
@@ -140,11 +102,6 @@ main::after{
 header.contents{
     margin-bottom: 25px;
     padding: 15px 0;
-
-    /* debug */
-    /* height: 60px; */
-    /* background-color: white; */
-    /* fine debug */
 }
 
 header.contents h1{
@@ -159,12 +116,6 @@ header.contents span{
 main>aside{
     float: left;
     width: 20%;
-
-    /* debug */
-    /* height: 600px; */
-    /* background-color: white; */
-
-    /* fine debug */
 }
 
 main>.center{
@@ -172,11 +123,6 @@ main>.center{
     margin-right: 20px;
     float: left;
     width: calc(60% - 40px);
-
-    /* debug */
-    /* height: 600px; */
-
-    /* fine debug */
 }
 
 main img{
@@ -198,7 +144,6 @@ main p{
     color: gray;
 }
 
-
 /* fine regole main */
 
 
@@ -207,15 +152,8 @@ main p{
 footer{
     width: 100%;
     margin-bottom: 35px;
-    /* padding: 20px; */
     text-align: center;
     font-size: 18px;
-
-    /* debug */
-    /* background-color: blueviolet; */
-    /* height: 60px; */
-
-    /* fine debug */
 }
 
 footer>span{
