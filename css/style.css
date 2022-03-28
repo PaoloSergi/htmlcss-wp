@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole .container */
+.container{
+    width: 80%;
+    margin: 25px auto;
+
+    /* debug */
+    /* height: 1000px; */
+    /* width: 80vw; */
+
+    /* fine debug */
+}
+
+
+/* fine regole .container */
+
+/* regole header.page */
+
+header.page{
+    width: 100%;
+    margin-bottom: 35px;
+
+    /* debug */
+    background-color: rgb(236, 71, 223);
+    height: 130px;
+
+    /* fine debug */
+}
+
+
+/* fine regole header.page */
+
+
+
+/* regole hero */
+
+section.hero{
+    width: 100%;
+    margin-bottom: 35px;
+
+    /* debug */
+    background-color:rgb(204, 186, 87);
+    height: 500px;
+
+    /* fine debug */
+}
+
+
+
+/* fine regole hero */
+
+
+/* regole main */
+
+main{
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+
+    /* debug */
+    background-color:rgb(87, 87, 255);
+    /* height: 700px; */
+
+    /* fine debug */
+}
+
+main>*{
+
+    /* debug */
+    background-color:rgb(157, 206, 255);
+
+    /* fine debug */
+
+}
+
+main::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header.contents{
+    margin-bottom: 25px;
+
+    /* debug */
+    height: 60px;
+
+    /* fine debug */
+}
+
+main>aside{
+    float: left;
+
+    /* debug */
+    height: 600px;
+    width: 20%;
+
+    /* fine debug */
+}
+
+main>.center{
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+
+    /* debug */
+    height: 600px;
+    width: calc(60% - 40px);
+
+    /* fine debug */
+}
+
+
+/* fine regole main */
+
+
+/* regole footer */
+
+footer{
+    width: 100%;
+    margin-bottom: 35px;
+
+    /* debug */
+    background-color: blueviolet;
+    height: 60px;
+
+    /* fine debug */
+}
+
+/* fine regole footer */
