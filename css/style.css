@@ -116,7 +116,7 @@ main{
     padding-bottom: 20px;
 
     /* debug */
-    background-color:rgb(87, 87, 255);
+    /* background-color:rgb(87, 87, 255); */
     /* height: 700px; */
 
     /* fine debug */
@@ -125,7 +125,7 @@ main{
 main>*{
 
     /* debug */
-    background-color:rgb(157, 206, 255);
+    /* background-color:rgb(157, 206, 255); */
 
     /* fine debug */
 
@@ -158,10 +158,11 @@ header.contents span{
 
 main>aside{
     float: left;
+    width: 20%;
 
     /* debug */
-    height: 600px;
-    width: 20%;
+    /* height: 600px; */
+    /* background-color: white; */
 
     /* fine debug */
 }
@@ -170,12 +171,31 @@ main>.center{
     margin-left: 20px;
     margin-right: 20px;
     float: left;
-
-    /* debug */
-    height: 600px;
     width: calc(60% - 40px);
 
+    /* debug */
+    /* height: 600px; */
+
     /* fine debug */
+}
+
+main img{
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+    filter: brightness(80%)
+}
+
+main .titoloArticolo{
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+main p{
+    font-size: 18px;
+    margin-top: 10px;
+    color: gray;
 }
 
 
