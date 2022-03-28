@@ -69,12 +69,12 @@ nav li>a{
 
 section.hero{
     width: 100%;
+    height: 540px;
     margin-bottom: 35px;
     position: relative;
 
     /* debug */
     /* background-color:rgb(204, 186, 87); */
-    height: 540px;
 
     /* fine debug */
 }
@@ -97,6 +97,10 @@ section.hero{
 
 .hero span{
     font-size: 32px;
+}
+
+.hero p{
+    font-size: 18px;
 }
 
 
@@ -135,11 +139,21 @@ main::after{
 
 header.contents{
     margin-bottom: 25px;
+    padding: 15px 0;
 
     /* debug */
-    height: 60px;
-
+    /* height: 60px; */
+    /* background-color: white; */
     /* fine debug */
+}
+
+header.contents h1{
+    font-size: 40px;
+}
+
+header.contents span{
+    font-size: 18px;
+    color: gray;
 }
 
 main>aside{
