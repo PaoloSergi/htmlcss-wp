@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* regole .container */
 .container{
     width: 80%;
@@ -23,19 +27,39 @@
 
 header.page{
     width: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 
     /* debug */
-    background-color: rgb(236, 71, 223);
-    height: 130px;
+    /* background-color: rgb(236, 71, 223); */
+    /* height: 130px; */
 
     /* fine debug */
 }
 
 .logo{
-    height:60%;padding-right: 20px;
+    height:80px;
+    padding-right: 20px;
     border-right: 1px solid lightgrey;
+    margin-bottom: 15px;
 }
+
+nav>ul li{
+    list-style-type: none;
+    display: inline-block;
+
+    /* background-color: red; */
+}
+
+nav li>a{
+    text-decoration: none;
+    color: grey;
+    font-size: large;
+    display: block;
+    padding: 15px 0;
+    margin-right: 10px;
+}
+
+
 
 /* fine regole header.page */
 
