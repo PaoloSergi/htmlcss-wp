@@ -70,6 +70,7 @@ nav li>a{
 section.hero{
     width: 100%;
     margin-bottom: 35px;
+    position: relative;
 
     /* debug */
     /* background-color:rgb(204, 186, 87); */
@@ -84,6 +85,18 @@ section.hero{
     border-radius: 10px;
     object-fit: cover;
     filter: brightness(80%)
+}
+
+.hero>div{
+    color: white;
+    position: absolute;
+    left: 50px;
+    bottom: 75px;
+    width: 50%;
+}
+
+.hero span{
+    font-size: 32px;
 }
 
 
